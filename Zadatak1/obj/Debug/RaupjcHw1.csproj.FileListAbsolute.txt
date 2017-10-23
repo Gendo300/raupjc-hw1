@@ -1,0 +1,7 @@
+C:\Users\Rudic\Documents\Eugen\VS2017\RaupjcHw1\RaupjcHw1\obj\Debug\RaupjcHw1.csprojResolveAssemblyReference.cache
+C:\Users\Rudic\Documents\Eugen\VS2017\RaupjcHw1\RaupjcHw1\obj\Debug\RaupjcHw1.csproj.CoreCompileInputs.cache
+C:\Users\Rudic\Documents\Eugen\VS2017\RaupjcHw1\RaupjcHw1\bin\Debug\RaupjcHw1.exe.config
+C:\Users\Rudic\Documents\Eugen\VS2017\RaupjcHw1\RaupjcHw1\bin\Debug\RaupjcHw1.exe
+C:\Users\Rudic\Documents\Eugen\VS2017\RaupjcHw1\RaupjcHw1\bin\Debug\RaupjcHw1.pdb
+C:\Users\Rudic\Documents\Eugen\VS2017\RaupjcHw1\RaupjcHw1\obj\Debug\RaupjcHw1.exe
+C:\Users\Rudic\Documents\Eugen\VS2017\RaupjcHw1\RaupjcHw1\obj\Debug\RaupjcHw1.pdb
