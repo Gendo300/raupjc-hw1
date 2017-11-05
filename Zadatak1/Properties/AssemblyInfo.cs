@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RaupjcHw1")]
+[assembly: AssemblyTitle("Zadatak1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RaupjcHw1")]
+[assembly: AssemblyProduct("Zadatak1")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e2bdd02a-c5c1-47c4-9e19-d6e949a3bbc3")]
+[assembly: Guid("3677f2a4-3014-41fa-b6de-30dbe561805a")]
 
 // Version information for an assembly consists of the following four values:
 //

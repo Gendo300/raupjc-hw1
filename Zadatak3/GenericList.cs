@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-
+using System.Runtime.InteropServices;
 namespace Zadatak3
 {
     public interface IGenericList<X> : IEnumerable<X>
@@ -49,7 +49,7 @@ namespace Zadatak3
             /// Determines  whether  the  collection  contains a specific  value.
             ///  </summary >
             bool Contains(X item);
-        }
+    }
 
 
     public class GenericList<X> : IGenericList<X>
@@ -73,10 +73,22 @@ namespace Zadatak3
                 _last = -1;
             }
 
+            /// <summary>
+            /// Initializes a generic list with given initial size of internal storage.
+            /// If number is negative throws invalidArgumentException
+            /// </summary>
+            /// <param name="initialSize"></param>
             public GenericList(int initialSize)
             {
-                _internalStorage = new X[(initialSize)];
-                _last = -1;
+                if (initialSize <= 0)
+                {
+                    throw new System.ArgumentException("Initial size must be a positive integer");
+                }
+                else
+                {
+                    _internalStorage = new X[(initialSize)];
+                    _last = -1;
+                }
             }
 
             public void Add(X item)
@@ -160,6 +172,7 @@ namespace Zadatak3
 
     public class GenericListEnumerator<X> : IEnumerator<X>
     {
+
         private int _index=0;
         private X _item;
         private GenericList<X> _list;
@@ -171,19 +184,13 @@ namespace Zadatak3
             _list = list;
         }
 
-        public X Current
-        {
-            get { return _item; }
-        }
+        public X Current => _item;
 
-        object IEnumerator.Current
-        {
-            get { return _item; }
-        }
+        object IEnumerator.Current => _item;
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Dobro je sve");
         }
 
         public bool MoveNext()
@@ -202,5 +209,6 @@ namespace Zadatak3
             _index = -1;
             _item = default(X);
         }
+
     }
 }
